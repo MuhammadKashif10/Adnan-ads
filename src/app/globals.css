@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 15%;
+
+    --primary: 88 50% 53%;
+    --primary-foreground: 0 0% 100%;
+    --primary-dark: 88 50% 43%;
+
+    --secondary: 0 0% 20%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 100 20% 95%;
+    --muted-foreground: 0 0% 40%;
+
+    --accent: 88 30% 92%;
+    --accent-foreground: 88 50% 30%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 88%;
+    --input: 0 0% 88%;
+    --ring: 88 50% 53%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 88 50% 53%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 88 30% 95%;
+    --sidebar-accent-foreground: 0 0% 20%;
+    --sidebar-border: 0 0% 91%;
+    --sidebar-ring: 88 50% 53%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    @apply font-bold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .hover-scale {
+    @apply transition-all duration-300 hover:scale-105;
+  }
+
+  .hover-card-effect {
+    @apply transition-all duration-300 hover:scale-[1.03] hover:shadow-xl;
+  }
+
+  .btn-hover {
+    @apply transition-all duration-200 hover:brightness-90 active:scale-95;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24 px-4 md:px-8;
+  }
+
+  .container-max {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .text-gradient-green {
+    @apply bg-gradient-to-r from-[hsl(88,50%,43%)] to-[hsl(88,50%,53%)] bg-clip-text text-transparent;
+  }
+}
+
+/* Swiper custom styles */
+.swiper-pagination-bullet-active {
+  background-color: hsl(88, 50%, 53%) !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: hsl(88, 50%, 53%) !important;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
