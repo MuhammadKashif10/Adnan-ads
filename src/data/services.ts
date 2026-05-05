@@ -74,8 +74,8 @@ export const services: Service[] = [
 
 export const PHONE_NUMBER = "+971557843154";
 export const DISPLAY_PHONE_NUMBER = "055 784 3154";
-export const WHATSAPP_NUMBER = "971557843154";
-export const WHATSAPP_LINK = "https://wa.me/971557843154?text=Hello%20I%20need%20junk%20removal%20service%20in%20Dubai";
+export const WHATSAPP_NUMBER = "923507599311";
+export const WHATSAPP_LINK = "https://wa.me/923507599311";
 export const COMPANY_NAME = "Junk removal dubai";
 export const COMPANY_EMAIL = "kashifads76@gmail.com";
 
