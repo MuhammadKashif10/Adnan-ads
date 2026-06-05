@@ -72,9 +72,9 @@ const ContactForm = () => {
   return (
     <section className="section-padding bg-muted" id="contact-form">
       <div className="container-max max-w-2xl">
-        <h2 className="text-3xl md:text-4xl font-heading text-center mb-3">Get a Free Quote</h2>
+        <h2 className="text-3xl md:text-4xl font-heading text-center mb-3">Get a Free Junk Removal Quote</h2>
         <p className="text-center text-muted-foreground mb-8">
-          Contact us for fast, affordable junk removal service in Dubai
+          Contact us for fast, affordable junk removal service Dubai residents can book today.
         </p>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

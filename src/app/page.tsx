@@ -10,61 +10,61 @@ import HeroSlider from "@/components/HeroSlider";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Junk Removal Dubai | #1 Waste Management & Garbage Removal Service",
+  title: "Junk Removal Dubai | Same Day Waste & Garbage Removal",
   description:
-    "Professional junk removal service in Dubai. Furniture removal, appliance disposal, construction debris cleanup. Dubai waste collection, garbage removal service. Call now for a free estimate!",
+    "Professional junk removal Dubai service for homes and businesses. Same day junk pickup, furniture removal, appliance removal, rubbish removal, and waste collection in Dubai.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Junk Removal Dubai | #1 Waste Management & Garbage Removal Service",
+    title: "Junk Removal Dubai | Same Day Waste & Garbage Removal",
     description:
-      "Professional junk removal service in Dubai. Furniture removal, appliance disposal, construction debris cleanup. Dubai waste collection and garbage removal.",
+      "Fast junk removal service Dubai residents trust for furniture, appliances, rubbish, garden waste, and garbage removal Dubai-wide.",
     url: "/",
     type: "website",
   },
   twitter: {
-    title: "Junk Removal Dubai | #1 Waste Management & Garbage Removal Service",
+    title: "Junk Removal Dubai | Same Day Waste & Garbage Removal",
     description:
-      "Professional junk removal service in Dubai. Fast, affordable waste collection and garbage removal across all Dubai areas.",
+      "Fast, affordable junk pickup Dubai-wide with reliable waste collection and rubbish removal for homes and businesses.",
   },
 };
 
 const heroSlides = [
   {
     image: hero1,
-    title: "Dubai's #1 Junk Removal Service",
+    title: "Junk Removal Dubai - Fast Same-Day Pickup",
     subtitle:
-      "Fast, affordable waste collection and garbage removal service across all Dubai areas. We collect junk, furniture, appliances, and construction debris.",
+      "Book same day junk removal Dubai service for homes, villas, offices, and shops. We handle junk pickup Dubai-wide, from furniture and appliances to rubbish and renovation waste.",
   },
   {
     image: hero2,
-    title: "Professional Waste Management in Dubai",
+    title: "Waste & Garbage Removal Dubai Can Rely On",
     subtitle:
-      "From residential cleanouts to commercial waste removal services — trust Dubai's leading junk removal experts for eco-friendly disposal.",
+      "From house clearance Dubai projects to commercial waste removal Dubai jobs, our local team provides careful loading, clean collection, and responsible disposal.",
   },
 ];
 
 const benefits = [
   {
     icon: Clock,
-    title: "Same-Day Service",
-    description: "Book today, we collect today. Fast junk removal near you in Dubai.",
+    title: "Same-Day Pickup",
+    description: "Book today for same day junk removal Dubai service when you need junk removal near me without the wait.",
   },
   {
     icon: Truck,
     title: "Full-Service Removal",
-    description: "We handle loading, hauling, and responsible disposal of all waste types.",
+    description: "We handle loading, hauling, rubbish removal Dubai collections, and responsible disposal of all waste types.",
   },
   {
     icon: ShieldCheck,
     title: "Licensed & Insured",
-    description: "Fully licensed waste management service compliant with Dubai regulations.",
+    description: "A dependable junk removal company Dubai customers can call for compliant waste collection and clear communication.",
   },
   {
     icon: Recycle,
     title: "Eco-Friendly Disposal",
-    description: "We recycle and donate wherever possible for sustainable waste management.",
+    description: "We recycle and donate wherever possible, keeping waste removal Dubai services cleaner and more responsible.",
   },
 ];
 
@@ -166,11 +166,12 @@ const Home = () => {
       <section className="section-padding bg-background">
         <div className="container-max">
           <h2 className="text-3xl md:text-4xl font-heading text-center mb-3">
-            Our Junk Removal Services in Dubai
+            Junk Removal, Waste Collection & Rubbish Removal in Dubai
           </h2>
           <p className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
-            Professional waste removal services for homes, offices, and construction sites. We
-            handle all types of garbage removal in Dubai.
+            Professional junk removal service Dubai-wide for homes, offices, shops, gardens, and
+            construction sites. We handle garbage removal Dubai, junk collection Dubai, and
+            affordable waste pickup with careful loading included.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((s) => (
@@ -192,10 +193,10 @@ const Home = () => {
       <section className="section-padding bg-accent">
         <div className="container-max">
           <h2 className="text-3xl md:text-4xl font-heading text-center mb-3">
-            Why Choose Our Waste Management Service
+            Why Choose Our Dubai Junk Removal Company
           </h2>
           <p className="text-center text-muted-foreground mb-10">
-            Dubai's most trusted junk removal and waste collection company
+            Clear quotes, reliable scheduling, and local crews for customers comparing cheap junk removal Dubai options.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {benefits.map((b, i) => (
@@ -218,24 +219,27 @@ const Home = () => {
       <section className="section-padding bg-background">
         <div className="container-max max-w-4xl text-center">
           <h2 className="text-3xl md:text-4xl font-heading mb-4">
-            Complete Junk Removal & Waste Management in Dubai
+            Complete Junk Removal & Waste Management Across Dubai
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            Looking for reliable <strong>junk removal in Dubai</strong>? CleanUp Dubai is your
-            go-to partner for all <strong>waste removal services</strong>. Whether you need{" "}
-            <strong>garbage removal service</strong>, <strong>dubai waste collection</strong>, or
-            professional <strong>waste management in Dubai</strong>, our team is ready to help. We
-            specialize in <strong>collecting garbage</strong> and providing top-rated{" "}
-            <strong>junk removal service</strong> across the city. Search for{" "}
-            <strong>junk removal near me</strong> and you'll find us — the most trusted name in{" "}
-            <strong>removal junk services</strong>. We <strong>collect junk</strong> from homes,
-            offices, and construction sites throughout <strong>Dubai</strong>. Contact us today for
-            fast <strong>garbage removal Dubai</strong> service!
+            Looking for reliable <strong>junk removal Dubai</strong> support without delays?
+            CleanUp Dubai helps with <strong>waste removal Dubai</strong> jobs of every size,
+            including <strong>furniture removal Dubai</strong>,{" "}
+            <strong>appliance removal Dubai</strong>, <strong>garden waste removal Dubai</strong>,
+            and <strong>house clearance Dubai</strong>. Whether you need a single item collected,
+            a full villa cleared, or scheduled <strong>waste collection Dubai</strong> for a
+            business, our team keeps the process simple from quote to cleanup. Many customers find
+            us while searching for the <strong>best junk removal Dubai</strong> option nearby, and
+            they choose us for punctual arrivals, upfront pricing, and careful handling. Contact us
+            today for fast <strong>garbage removal Dubai</strong> and a cleaner space anywhere in
+            Dubai.
           </p>
         </div>
       </section>
 
-      <TestimonialSlider />
+      <TestimonialSlider
+        subtitle="Trusted for same-day junk pickup, rubbish removal, and waste collection across Dubai"
+      />
       <ContactForm />
 
       {/* JSON-LD Structured Data */}

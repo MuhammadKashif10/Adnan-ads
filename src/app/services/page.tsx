@@ -7,7 +7,7 @@ import { PHONE_NUMBER, COMPANY_EMAIL } from "@/data/services";
 
 export const metadata: Metadata = {
   title: "Our Services | Junk Removal & Waste Management Dubai",
-  description: "Professional junk removal services in Dubai: furniture removal, appliance disposal, office cleanout, construction debris, garden waste, and general junk removal.",
+  description: "Professional junk removal services in Dubai: furniture removal, appliance disposal, construction debris, garden waste, and general junk removal.",
   alternates: {
     canonical: "/services",
   },

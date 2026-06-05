@@ -1,6 +1,5 @@
 import serviceFurniture from "@/assets/service-furniture.jpg";
 import serviceAppliance from "@/assets/service-appliance.jpg";
-import serviceOffice from "@/assets/service-office.jpg";
 import serviceConstruction from "@/assets/service-construction.jpg";
 import serviceGarden from "@/assets/service-garden.jpg";
 import serviceGeneral from "@/assets/service-general.jpg";
@@ -19,7 +18,7 @@ export const services: Service[] = [
   {
     slug: "furniture-removal",
     title: "Furniture Removal",
-    shortDescription: "Old sofas, beds, tables, wardrobes — we remove all unwanted furniture from your home or office in Dubai.",
+    shortDescription: "Furniture removal Dubai crews for old sofas, beds, tables, wardrobes, and bulky items from homes or offices.",
     description: "Need to get rid of old or broken furniture? Our professional furniture removal service in Dubai handles sofas, beds, tables, wardrobes, desks, and all types of household and office furniture. We provide fast, eco-friendly furniture disposal across all areas in Dubai. Whether you're renovating, moving, or simply decluttering, our team will handle the heavy lifting and ensure responsible disposal or recycling of your unwanted furniture.",
     image: serviceFurniture,
     keywords: ["furniture removal dubai", "old furniture disposal", "sofa removal", "junk removal service"],
@@ -28,25 +27,16 @@ export const services: Service[] = [
   {
     slug: "appliance-removal",
     title: "Appliance Removal",
-    shortDescription: "We safely remove and dispose of old washing machines, fridges, ACs, and all household appliances.",
+    shortDescription: "Appliance removal Dubai service for old washing machines, fridges, ACs, and household appliances.",
     description: "Got old appliances taking up space? Our appliance removal service in Dubai specializes in the safe removal and responsible disposal of refrigerators, washing machines, dryers, air conditioners, ovens, dishwashers, and more. We handle disconnection carefully and ensure all appliances are recycled or disposed of in compliance with Dubai's waste management regulations.",
     image: serviceAppliance,
     keywords: ["appliance removal dubai", "old fridge disposal", "waste removal services", "garbage removal service"],
     features: ["Safe disconnection", "All appliance types", "Recycling compliant", "Free estimates"],
   },
   {
-    slug: "office-cleanout",
-    title: "Office Cleanout",
-    shortDescription: "Complete office clearance service — desks, chairs, electronics, and all commercial waste removed efficiently.",
-    description: "Relocating your office or closing down? Our office cleanout service in Dubai provides complete commercial clearance. We remove desks, chairs, filing cabinets, electronics, IT equipment, and all types of office waste. Our team works efficiently to minimize disruption to your business operations, and we offer flexible scheduling including evenings and weekends.",
-    image: serviceOffice,
-    keywords: ["office cleanout dubai", "commercial junk removal", "office furniture disposal", "waste management service"],
-    features: ["Minimal business disruption", "IT equipment disposal", "Flexible scheduling", "Bulk removal discounts"],
-  },
-  {
     slug: "construction-debris-removal",
     title: "Construction Debris Removal",
-    shortDescription: "Concrete, wood, tiles, drywall — we clear all construction and renovation waste from your site.",
+    shortDescription: "Site cleanup and waste collection Dubai support for concrete, wood, tiles, drywall, and renovation debris.",
     description: "After a renovation or construction project, let us handle the cleanup. Our construction debris removal service in Dubai handles concrete, bricks, tiles, drywall, wood, metal, and all types of building waste. We provide efficient site clearance with proper waste segregation and disposal in accordance with Dubai Municipality regulations.",
     image: serviceConstruction,
     keywords: ["construction debris removal dubai", "renovation waste disposal", "collecting garbage", "dubai waste collection"],
@@ -55,7 +45,7 @@ export const services: Service[] = [
   {
     slug: "garden-waste-removal",
     title: "Garden Waste Removal",
-    shortDescription: "Tree branches, leaves, soil, and green waste cleared from your garden quickly and affordably.",
+    shortDescription: "Garden waste removal Dubai service for branches, leaves, soil, and green waste cleared quickly.",
     description: "Keep your garden clean and beautiful with our garden waste removal service in Dubai. We remove tree branches, leaves, grass clippings, soil, plant pots, and all types of green waste. Whether it's a routine garden cleanup or post-landscaping clearance, our team provides fast, affordable service across all Dubai areas.",
     image: serviceGarden,
     keywords: ["garden waste removal dubai", "green waste disposal", "waste management in dubai", "collect junk"],
@@ -64,7 +54,7 @@ export const services: Service[] = [
   {
     slug: "general-junk-removal",
     title: "General Junk Removal",
-    shortDescription: "Household clutter, garage cleanouts, storage clearance — we take away all your unwanted junk.",
+    shortDescription: "Junk collection Dubai service for household clutter, garage cleanouts, storage clearance, and unwanted rubbish.",
     description: "From household clutter to garage cleanouts, our general junk removal service in Dubai handles it all. We remove old clothes, toys, books, boxes, broken items, and any miscellaneous junk you need gone. Our friendly team provides a hassle-free experience with upfront pricing and same-day service availability throughout Dubai.",
     image: serviceGeneral,
     keywords: ["junk removal dubai", "junk removal near me", "removal junk services", "junk removal service"],
@@ -107,7 +97,7 @@ export const testimonials = [
   {
     name: "Raj P.",
     location: "Business Bay",
-    text: "Called them for an office cleanout and they handled everything professionally. Great pricing, no hidden charges. Will definitely use again.",
+    text: "Called them for junk removal and they handled everything professionally. Great pricing, no hidden charges. Will definitely use again.",
     rating: 5,
   },
   {
