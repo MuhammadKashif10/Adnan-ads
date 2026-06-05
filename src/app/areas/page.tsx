@@ -65,7 +65,7 @@ export default function OurAreas() {
             <Link href="/contact" className="text-primary hover:underline">
               Call us or WhatsApp
             </Link>{" "}
-            for a free estimate!
+            for an estimate!
           </p>
         </div>
       </section>
@@ -108,7 +108,7 @@ export default function OurAreas() {
             href="/contact"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-heading font-bold btn-hover"
           >
-            Get a Free Quote
+            Get Pricing
           </Link>
         </div>
       </section>

@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!service) return { title: "Not Found" };
   return {
     title: `${service.title} in Dubai | Professional Junk Removal Service`,
-    description: `${service.shortDescription} Professional ${service.title.toLowerCase()} service in Dubai. Call now for a free estimate!`,
+    description: `${service.shortDescription} Professional ${service.title.toLowerCase()} service in Dubai. Call now for an estimate!`,
     alternates: {
       canonical: `/services/${service.slug}`,
     },
@@ -104,7 +104,7 @@ export default async function ServiceDetail({ params }: { params: Promise<{ slug
           {/* Sidebar */}
           <div className="space-y-6">
             <div className="bg-accent rounded-xl p-6 border border-border">
-              <h3 className="font-heading font-bold text-lg mb-4">Get a Free Quote</h3>
+              <h3 className="font-heading font-bold text-lg mb-4">Get Pricing</h3>
               <p className="text-sm text-muted-foreground mb-4">Ready to clear out the junk? Contact us now for fast, affordable {service.title.toLowerCase()} in Dubai.</p>
               <div className="space-y-3">
                 <a href={`tel:${PHONE_NUMBER}`} className="flex items-center justify-center gap-2 w-full py-3 rounded-lg bg-primary text-primary-foreground font-semibold text-sm btn-hover">

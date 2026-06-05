@@ -5,19 +5,19 @@ import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact Us | CleanUp Dubai - Junk Removal Service",
-  description: "Contact CleanUp Dubai for fast, affordable junk removal and waste management services. Call, WhatsApp, or fill out our form for a free estimate in Dubai.",
+  description: "Contact CleanUp Dubai for fast, affordable junk removal and waste management services. Call, WhatsApp, or fill out our form for an estimate in Dubai.",
   alternates: {
     canonical: "/contact",
   },
   openGraph: {
-    title: "Contact CleanUp Dubai | Free Junk Removal Estimate",
-    description: "Get a free quote for junk removal and waste management in Dubai. We respond within minutes!",
+    title: "Contact CleanUp Dubai | Junk Removal Estimate",
+    description: "Get pricing for junk removal and waste management in Dubai. We respond within minutes!",
     url: "/contact",
     type: "website",
   },
   twitter: {
-    title: "Contact CleanUp Dubai | Free Junk Removal Estimate",
-    description: "Fast, reliable junk removal in Dubai. Contact us now for a free price estimate.",
+    title: "Contact CleanUp Dubai | Junk Removal Estimate",
+    description: "Fast, reliable junk removal in Dubai. Contact us now for a price estimate.",
   }
 };
 
@@ -55,7 +55,7 @@ export default function Contact() {
         <div className="container-max text-center">
           <h1 className="text-4xl md:text-5xl font-heading mb-4">Contact Us</h1>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Get in touch for a free, no-obligation quote for <strong>junk removal in Dubai</strong>. We respond within minutes!
+            Get in touch for a no-obligation estimate for <strong>junk removal in Dubai</strong>. We respond within minutes!
           </p>
         </div>
       </section>

@@ -31,7 +31,7 @@ export const services: Service[] = [
     description: "Got old appliances taking up space? Our appliance removal service in Dubai specializes in the safe removal and responsible disposal of refrigerators, washing machines, dryers, air conditioners, ovens, dishwashers, and more. We handle disconnection carefully and ensure all appliances are recycled or disposed of in compliance with Dubai's waste management regulations.",
     image: serviceAppliance,
     keywords: ["appliance removal dubai", "old fridge disposal", "waste removal services", "garbage removal service"],
-    features: ["Safe disconnection", "All appliance types", "Recycling compliant", "Free estimates"],
+    features: ["Safe disconnection", "All appliance types", "Recycling compliant", "Upfront estimates"],
   },
   {
     slug: "construction-debris-removal",
@@ -55,7 +55,7 @@ export const services: Service[] = [
     slug: "general-junk-removal",
     title: "General Junk Removal",
     shortDescription: "Junk collection Dubai service for household clutter, garage cleanouts, storage clearance, and unwanted rubbish.",
-    description: "From household clutter to garage cleanouts, our general junk removal service in Dubai handles it all. We remove old clothes, toys, books, boxes, broken items, and any miscellaneous junk you need gone. Our friendly team provides a hassle-free experience with upfront pricing and same-day service availability throughout Dubai.",
+    description: "From household clutter to garage cleanouts, our general junk removal service in Dubai handles it all. We remove old clothes, toys, books, boxes, broken items, and any miscellaneous junk you need gone. Our friendly team provides a smooth experience with upfront pricing and same-day service availability throughout Dubai.",
     image: serviceGeneral,
     keywords: ["junk removal dubai", "junk removal near me", "removal junk services", "junk removal service"],
     features: ["Same-day service", "Upfront pricing", "No hidden fees", "All junk types accepted"],

@@ -228,7 +228,7 @@ const Home = () => {
             <strong>appliance removal Dubai</strong>, <strong>garden waste removal Dubai</strong>,
             and <strong>house clearance Dubai</strong>. Whether you need a single item collected,
             a full villa cleared, or scheduled <strong>waste collection Dubai</strong> for a
-            business, our team keeps the process simple from quote to cleanup. Many customers find
+            business, our team keeps the process simple from booking to cleanup. Many customers find
             us while searching for the <strong>best junk removal Dubai</strong> option nearby, and
             they choose us for punctual arrivals, upfront pricing, and careful handling. Contact us
             today for fast <strong>garbage removal Dubai</strong> and a cleaner space anywhere in
